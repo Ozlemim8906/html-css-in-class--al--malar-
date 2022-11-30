@@ -1,0 +1,66 @@
+
+
+/*background için css/*
+
+body{
+    
+    background-image:url(../manzara.jpg);
+}
+p{
+    background-color: rgb(181, 111, 111);
+    background-image:url(../51Q-oxbd3sL._AC_SL1500_.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+a{
+    background-color: rgb(96, 71, 38);
+    opacity:0.3;
+}
+
+div p{
+    background-color:rgba(100,150,200,0.199);
+}
+div{
+    border: 4px;
+    width: 400px;
+}
+div a{
+    background-color: rgb(46, 46, 83);
+    opacity:1;
+}*/
+
+/*background 1 için css*/
+/* body{
+    background-image:url(../81r-S31BH4L._AC_SL1500_.jpg);
+    background-size:300px;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+} */
+ body{
+    background:rgb(163, 122, 122)
+    url(../81r-S31BH4L._AC_SL1500_.jpg)
+    no-repeat fixed right top ;
+
+     
+ }
+ /* p{ border-style:dashed;
+    border-image:url(../51Q-oxbd3sL._AC_SL1500_.jpg) 30px;
+    
+ } */
+
+ .border-style{
+    border-left:5px solid red; 
+    border-bottom:10px dashed yellow;
+    border-right:15px dotted green;
+    border: top 20px inset blue  ;
+    border-bottom-left-radius:10px;
+
+ }
+   
+
+
+
+
+
+
+
